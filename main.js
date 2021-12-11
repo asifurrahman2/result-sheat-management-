@@ -36,7 +36,7 @@ addDataBtn.addEventListener("click", () => {
 showData()
 
 function showData() {
-  const columns = ["No.", "Name", "Input"]
+  const columns = ["Roll", "Student Name", "Marks"]
   table.innerHTML = null
   table.append(createColumnNames(columns))
  
